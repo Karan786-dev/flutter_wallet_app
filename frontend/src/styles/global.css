@@ -1,0 +1,41 @@
+body {
+    font-family: 'Exo', sans-serif;
+}
+
+.card {
+    overflow: hidden;
+}
+
+img {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.context {
+    z-index: 99;
+}
+
+
+.context {
+    width: 100%;
+    position: absolute;
+    max-width: 500px;
+}
+
+.context h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+p {
+    margin: 0;
+}
+
+button {
+    z-index: 999;
+}

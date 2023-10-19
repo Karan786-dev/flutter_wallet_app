@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,500,600,700,800,900');
+
+.context {
+    width: 100%;
+    position: absolute;
+    max-width: 500px;
+}
+
+.context h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+/* ... Other .circles li rules ... */
+
+.card {
+    overflow: hidden;
+}
+
+
+
+/* Center the form vertically and horizontally */
+.center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Ensure the form is centered vertically on the page */
+}
+
+.login-heading {
+    background-image: url(https://i.gifer.com/Es5N.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.context {
+    z-index: 99;
+}

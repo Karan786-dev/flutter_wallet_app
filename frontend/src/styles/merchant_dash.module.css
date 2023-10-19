@@ -1,0 +1,79 @@
+.container {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+
+.first_container {
+    margin-top: 3vh;
+    height: 15vh;
+    width: 70%;
+}
+
+.first_container .first_section {
+    display: flex;
+    height: 100%;
+}
+
+.balance_container {
+    width: 50%;
+    height: 100%;
+    margin-right: 2vh;
+}
+
+.balance_container button {
+    width: 70%;
+    height: 4vh;
+}
+
+.balance_container .card {
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    background-color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+
+.payout_container {
+    width: 50%;
+    margin-left: 2vh;
+    height: 100%;
+}
+
+.payout_container .card {
+    font-weight: bolder;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.second_container {
+    height: 30vh;
+    width: 70%;
+    margin-top: 4vh;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.token_container .input_container {
+    margin-top: 4vh;
+}
+
+.token_container p {
+    font-weight: bold;
+}
+
+
+.token_container button:nth-child(2) {
+    margin-top: 2vh;
+}
+
+.third_container {
+    margin-top: 3vh;
+    border-radius: 20px;
+    height: 22vh;
+    width: 70%;
+    background-color: white;
+}

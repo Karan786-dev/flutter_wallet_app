@@ -1,0 +1,46 @@
+
+
+.transactions_container {
+    overflow: auto;
+    height: 24vh;
+}
+
+.transaction_container {
+    padding: 1vh;
+}
+
+.transaction_container>div {
+    display: flex;
+}
+
+.transaction_container>div>img {
+    width: 6vh;
+    height: 6vh;
+}
+
+.transaction_info p {
+    font-size: 13px;
+    margin-left: 5vw;
+}
+
+.transaction_info p:nth-child(1) {
+    font-weight: 700;
+}
+
+
+.transaction_info p:nth-child(2) {
+    color: gray;
+}
+
+.amount {
+    margin-left: 13vh;
+}
+
+.transaction_container.received .amount {
+    color: green;
+}
+
+.transaction_container.withdraw .amount {
+    color: red;
+    margin-left: 15vh;
+}

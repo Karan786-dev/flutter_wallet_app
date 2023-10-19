@@ -1,0 +1,83 @@
+.container {
+    position: absolute;
+    width: 100%;
+    padding: 3vh;
+}
+
+.first_section {
+    background-color: white;
+    height: 40vh;
+    width: 100%;
+    border-radius: 13px;
+    position: relative;
+    z-index: 9999;
+}
+
+.profile_details_section img {
+    width: 20vh;
+    height: 20vh;
+}
+
+.profile_details_section button {
+    width: 70%;
+}
+
+.second_section {
+    position: relative;
+    z-index: 9999;
+    margin-top: 3vh;
+    background-color: white;
+    height: 30vh;
+    width: 100%;
+    border-radius: 13px;
+}
+
+
+.transactions_container {
+    overflow: auto;
+    height: 24vh;
+}
+
+.transaction_container {
+    padding: 1vh;
+}
+
+.transaction_container>div {
+    display: flex;
+}
+
+.transaction_container>div>img {
+    width: 6vh;
+    height: 6vh;
+}
+
+.transaction_info p {
+    font-size: 13px;
+    margin-left: 5vw;
+}
+
+.transaction_info p:nth-child(1) {
+    font-weight: 700;
+}
+
+
+.transaction_info p:nth-child(2) {
+    color: gray;
+}
+
+.amount {
+    margin-left: 13vh;
+}
+
+.transaction_container.received .amount {
+    color: green;
+}
+
+.transaction_container.withdraw .amount {
+    color: red;
+    margin-left: 15vh;
+}
+
+.editing_profile input {
+    height: 3vh;
+}
