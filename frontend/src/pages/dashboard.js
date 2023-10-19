@@ -243,7 +243,6 @@ export const Dashboard = (props) => {
                                                     <b>₹{tData.amount}</b>
                                                 </p>
                                             </div>
-
                                         </div>
                                     })}
                                 </div>
